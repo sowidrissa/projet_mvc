@@ -1,0 +1,104 @@
+
+body{
+    height: 100vh;
+    align-items: center;
+   justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    align-content: center;
+background-size: cover;
+    gap: 5rem;
+}
+#body{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    background-color:white;
+    border-radius: 1rem 2rem 1rem 2rem; 
+  }
+
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+   .type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 8vh;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  } 
+
+.log{
+ font-size: 50px;
+  margin-left: -45px;
+  /* color: #000000e0; */
+}
+.pass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .submit{
+      margin-left: 10%;
+      font-size: 3vh;
+      background-color: aqua;
+      height: 8vh;
+      width: 20vh;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+  }
+  span{
+      color: rgba(0, 0, 0, 0.685);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 40px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .lf{
+      display: flex;
+      justify-content: space-between;
+      width: 40vw;
+      color: white;
+      background-color: aqua;
+      
+  }
+  /* .lf h1{
+      display: flex;
+      justify-content: flex-end;
+      margin-left: -10px;
+  } */
+  .foo{
+      display: flex;
+      justify-content: space-between;
+      width: 40vw;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+
+  
