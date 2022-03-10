@@ -1,0 +1,106 @@
+{
+    "users": [
+        {
+            "nom": "Dieng",
+            "prenom": "Papa",
+            "login": "joueur@gmail.com",
+            "password": "joueur12",
+            "role": "ROLE_JOUEUR",
+            "score": 10
+        },
+        {
+            "nom": "Sow",
+            "prenom": "Aissata",
+            "login": "admin@gmail.com",
+            "password": "admin12",
+            "role": "ROLE_ADMIN",
+            "score": 22
+        },
+        {
+            "prenom": "Mohamed",
+            "nom": "Ba",
+            "login": "mba25116@gmail.com",
+            "password": "Admine123",
+            "role": "ROLE_JOUEUR",
+            "score": 26
+        },
+        {
+            "prenom": "Idrissa",
+            "nom": "Sow",
+            "login": "admin@gmail.com",
+            "password": "admin12",
+            "role": "ROLE_JOUEUR",
+            "score": 30
+        },
+        {
+            "prenom": "Harouna",
+            "nom": "Niang",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 15
+        },
+        {
+            "prenom": "Paterne",
+            "nom": "Diehdiou",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 20
+        },
+        {
+            "prenom": "Alassane",
+            "nom": "Mballo",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 80
+        },
+        {
+            "prenom": "Salla",
+            "nom": "Mbaye",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 60
+        },
+        {
+            "prenom": "Moustapha",
+            "nom": "Faye",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 100
+        },
+        {
+            "prenom": "Mamadou",
+            "nom": "Tall",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 65
+        },
+        {
+            "prenom": "Harouna",
+            "nom": "Niang",
+            "login": "idrissagandiol@gmail.com",
+            "password": "azerty1234",
+            "role": "ROLE_JOUEUR",
+            "score": 102
+        }
+    ],
+    "question": [
+        {
+            "question": "Quelle est le meilleur langage de programmation?",
+            "nombredepoint": 10,
+            "typeDeReponse": "chaine",
+            "reponse": "javascript"
+        },
+        {
+            "question": "En quelle ann\u00e9e est n\u00e9e Javascript ?",
+            "nombredepoint": 6,
+            "typeDeReponse": "nombre",
+            "reponse": "1995"
+        }
+    ]
+}
