@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
         <head>
             <meta charset="UTF-8">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Compte a Rebourd</title>
             <link rel="stylesheet" href="style.css">
-            <title>Caroussel</title>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         </head>
     <body>
-        <div id="container">
-            <img name="slide" src="" alt="" srcset="">
-            <i class="header fa-solid fa-chevron-right Precedent"></i>
-            <i class="header fa-solid fa-chevron-left Suivant"></i>
-        
+
+         <h1>On sera en 2023 dans</h1>
+
+        <div id="count" class=".count">
+            <div class="time">
+                <h2 id="days">00</h2>
+                <small>jours</small>
+            </div>
+            <div class="time">
+                <h2 id="hours">00</h2>
+                <small>heures</small>
+            </div>
+            <div class="time">
+                <h2 id="minutes">00</h2>
+                <small>minutes</small>
+            </div>
+            <div class="time">
+                <h2 id="seconds">00</h2>
+                <small>secondes</small>
+            </div>
         </div>
+
+        
+
         <script src="script.js"></script>
     </body>
 </html>
