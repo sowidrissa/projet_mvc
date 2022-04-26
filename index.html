@@ -2,51 +2,32 @@
 <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
-            <title>Movie App</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <title>Recette</title>
         </head>
     <body>
-        <header>
-            <form id="form">
-                <input type="text" placeholder="Search" id="search" class="search">
-            </form>
-        </header>
-        <main id="main">
-            <div class="movie"> 
-                <div class="movie-info">
-                    <h3>Movie Title</h3>
-                    <span class="green">9.8</span>
+            <div class="container">
+                <form action="">
+                <input class="search" type="text">
+                <i class="fa-solid fa-magnifying-glass" id="fa-solid"></i>
+                </form>
+                <div class="recette">
+                    <h1>Mes Recettes Favorites</h1>
+                    <img src="img/crepe.jpeg" alt="" width="100px" height="100px" class="bac">
+                    <h4>Pancakes</h4>
                 </div>
-
-                <div class="overview">
-
-
+                <div class="header">
+                    <img src="img/pizza.jpeg" alt="" class="baniere">
+                    <div class="gener">
+                    <h4 class="generer">Generer une Recette</h4>
+                    </div>
                 </div>
-            </div>
-            <div class="movie"> 
-                <div class="movie-info">
-                    <h3>Movie Title</h3>
-                    <span class="orange">6.0</span>
-                </div>
-                <div class="overview">
+                <div class="fresh">
+                    <h2>Fresh sardines</h2>
+                    <i class="fa-solid fa-heart" id="fa-heart"></i>
                 </div>
             </div>
-            <div class="movie"> 
-                <div class="movie-info">
-                    <h3>Movie Title</h3>
-                    <span class="orange">8.0</span>
-                </div>
-                <div class="overview">
-
-
-                </div>
-            </div>
-            
-            
-        </main>
-       
-      
-        <script src="script.js"></script>
+            <script src="script.js"></script>
     </body>
 </html>
