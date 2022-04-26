@@ -1,6 +1,4 @@
 
-
-
 const tables=document.querySelector(".tables");
 const bplus=document.querySelector(".bplus");
 const createtable=document.querySelector(".createtable");
@@ -11,7 +9,7 @@ const close=document.querySelector(".close");
 const btnajout=document.querySelector(".btnajout");
 const menu=document.querySelector(".menu");
 const taches=document.querySelector(".taches");
-var tabcolor=["rgb(204, 255, 230)","rgb(255, 128, 128","rgb(51, 51, 255)","rgb(255, 255, 230)","rgb(204, 242, 255)"];
+var tabcolor=["rgb(204, 255, 223)","rgb(255, 128, 122)","rgb(51, 51, 293)","rgb(255, 255, 220)","rgb(204, 242, 225)"];
 var i=0;
 
 function ajoutable(){
@@ -47,7 +45,7 @@ function ajoutable(){
 
     })
     
-    logo.src="idrissa.jpg";
+    logo.src="img/idrissa.jpg";
     logo.classList.add("logo");
     divtable.classList.add("table");
     divtable.classList.add("animemenu");
